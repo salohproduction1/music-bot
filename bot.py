@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Cal
 
 import yt_dlp
 
-TOKEN = os.environ.get("8937775934:AAGtrmcAKrER-V9oX2zI8jlVzVjBHYIf-aE"")
+TOKEN = os.environ.get("TOKEN", "8937775934:AAGtrmcAKrER-V9oX2zI8jlVzVjBHYIf-aE")
 FFMPEG_PATH = '/usr/bin'
 
 user_search_results = {}
